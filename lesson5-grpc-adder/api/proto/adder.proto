@@ -3,7 +3,6 @@ syntax = "proto3";
 package api;
 
 option go_package = "./pkg/api";
-// option go_package = "gopher-school/lesson5-grpc-adder/pkg/api";
 
 service Adder {
     rpc Add(AddRequest) returns (AddResponse) {}
